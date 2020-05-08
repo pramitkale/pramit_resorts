@@ -38,12 +38,12 @@ function RoomsFilter({rooms}) {
             <Title title="Search Rooms" />
             < form className ="filter-form">
                 <div className="form-group">
-                    <label htmlFor="type"></label>
+                    <label htmlFor="type">Type</label>
                     <select name="type" id="type" value={type} className="form-control" onChange={handleChange}>{types}</select>
                 </div>
                 
                 <div className="form-group">
-                    <label htmlFor="capacity"></label>
+                    <label htmlFor="capacity">Capacity</label>
                     <select name="capacity" id="capacity" value={capacity} className="form-control" onChange={handleChange}>{people}</select>
                 </div>
                 
